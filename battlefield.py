@@ -5,8 +5,8 @@ from herd import Herd
 
 class Battlefield:
     def __init__(self):
-        Fleet
-        Herd
+        self.fleet = Fleet()
+        self.herd = Herd()
 
     def run_game(self):
         pass
@@ -32,4 +32,4 @@ class Battlefield:
     def display_winner(self):
         pass
 
-    
+
