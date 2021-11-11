@@ -9,3 +9,7 @@ class Robots:
 
     def attack(self, dinosaur):
         pass
+
+robot1 = Robots("R2D2")
+robot2 = Robots("C3PO")
+robot3 = Robots("BB8")
