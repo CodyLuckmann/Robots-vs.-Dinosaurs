@@ -12,7 +12,7 @@ class Battlefield:
         pass
 
     def display_welcome(self):
-        pass
+        print("Welcome to Robots vs. Dinosaurs!!")
 
     def battle(self):
         pass
@@ -30,6 +30,6 @@ class Battlefield:
         pass
 
     def display_winner(self):
-        pass
+        print("The winner is.. ")
 
 
