@@ -8,10 +8,12 @@ ENV PYTHONBUFFERED=1
 COPY requirements.txt ./
 RUN pip install -r requirements.txt
 
-#add user (see link)
-RUN adduser -u 5678 --disabled-password --gecos "" appuser && chown -R appuser /app
-USER appuser
-
 COPY ./ ./
+
+#add user (see link)
+RUN useradd -u 123 my-user
+USER my-user
+
+
 
 CMD ["python", "main.py"]
